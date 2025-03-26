@@ -22,7 +22,7 @@ class LocatorsPractice {
 		Thread.sleep(2000);
 		driver.findElement(By.id("email")).sendKeys("nagothuaparna19@gmail.com");
 		Thread.sleep(2000);
-		driver.findElement(By.name("pass")).sendKeys("abcd");
+		driver.findElement(By.name("pass")).sendKeys("Hello@123");
 		Thread.sleep(2000);
 		driver.findElement(By.name("login")).click();
 		Thread.sleep(2000);
