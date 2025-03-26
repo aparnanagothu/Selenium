@@ -9,8 +9,10 @@ import org.testng.annotations.AfterTest;
 public class GitDemo {
 	WebDriver driver;
   @Test
-  public void techlearnlogin() {
+  public void techlearnlogin() throws InterruptedException {
 	  driver.get("https://www.techlearn.in/admin");
+	  Thread.sleep(2000);
+	  
   }
   @BeforeTest
   public void beforeTest() {
