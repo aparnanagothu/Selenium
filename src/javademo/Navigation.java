@@ -10,7 +10,7 @@ public class Navigation {
 		driver.get("https://www.google.com");
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
-		driver.navigate().to("https://www.facebook.com");
+		driver.navigate().to("https://www.gmail.com");
 		Thread.sleep(2000);
 		driver.navigate().back();
 		Thread.sleep(2000);
@@ -18,7 +18,7 @@ public class Navigation {
 		Thread.sleep(2000);
 		driver.navigate().refresh();
 		Thread.sleep(2000);
-		driver.quit();
+		driver.close();
 	}
 
 }
