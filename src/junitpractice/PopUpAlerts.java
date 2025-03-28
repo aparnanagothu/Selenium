@@ -10,7 +10,7 @@ public class PopUpAlerts {
   @Test
   public void techlearn() {
      driver.get("https://www.techlearn.in/");
-    driver.switchTo().alert().accept();
+   
   }
 
   @BeforeTest
